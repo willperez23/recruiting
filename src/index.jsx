@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useParams } from 'react-router';
 import Nav from './nav';
+import About from './about';
 import './style.scss';
 
 function Test(props) {
@@ -14,10 +15,6 @@ function Test(props) {
       {id}
     </div>
   );
-}
-
-function About(props) {
-  return <div> All there is to know about me </div>;
 }
 
 function Welcome(props) {
